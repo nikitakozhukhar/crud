@@ -1,0 +1,21 @@
+.card {
+  position: relative;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.card__close {
+  position: absolute;
+  top: 0;
+  right: 3px;
+  width: 20px;
+  cursor: pointer;
+  content: url('../../../public/delete.png')
+}
+
+.card__text {
+  padding: 10px;
+  
+  text-align: left;
+}
